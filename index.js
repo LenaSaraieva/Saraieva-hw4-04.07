@@ -1,7 +1,15 @@
-let number1 =prompt(2)
-let number2 =prompt(2)
-number1 = Number(2); 
-number2 = Number(2);
+let number1 = prompt ("Введіть перше число")
+if (number1 === null || number1 === "")
+{alert ('Ви не ввели перше число'); }
+else {
+    let number2 = prompt ("Введіть друге число")
+    if (number2 === null || number2 === "")
+    {alert ('Ви не ввели друге число'); }
+}
+
+    number1 = Number(2); 
+    number2 = Number(2);
+
 const sum= number1 + number2;
 alert (`2 + 2 = ${sum}`)
 
